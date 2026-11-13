@@ -12,9 +12,12 @@ cd INSID3-Repro
 uv sync
 source .venv/bin/activate
 mkdir -p data pretrain output ../downloads ../setup-logs
+python download_weights.py
 ~~~
 
-从 [Meta DINOv3](https://github.com/facebookresearch/dinov3) 获取 LVD-1689M 权重，放入 `pretrain/`。主评测使用 `dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth`。Small 和 Base 对照另需 `dinov3_vits16_pretrain_lvd1689m-08c60483.pth` 和 `dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth`。仓库自带猫示例图片。使用下面的命令准备 DINOv3 源码，然后执行单图推理。已具备缓存时可跳过 clone。
+默认从 [GitHub Release](https://github.com/SinkCicada/INSID3-Repro/releases/tag/weights-v1) 获取主评测使用的 DINOv3 Large。全部实验权重可用 `python download_weights.py --all` 获取，分卷会自动合并，下载后校验 SHA-256。已有同名权重放在 `pretrain/` 即可复用。模型的原始许可与来源见 [权重许可](licenses/README.md)。
+
+仓库自带猫示例图片。使用下面的命令准备 DINOv3 源码，然后执行单图推理。已具备缓存时可跳过 clone。
 
 ~~~bash
 hub_dir="$(python -c 'import torch; print(torch.hub.get_dir())')"
@@ -55,4 +58,4 @@ CUDA_VISIBLE_DEVICES=0 python inference_segmentation.py \
 - SPair-71k、替换骨干、SAM 3、空掩码和计时见 [补充对照](results/supplement.json)。其中空掩码、部分替换骨干及阈值基线和论文差距较大。SAM 3 图像横拼采用框提示。
 - CWFID 的 21 张测试图以 002 为固定参考。汇总前景 IoU 为 **78.82%**，覆盖率 MAE 为 **0.54 个百分点**。见 [应用汇总](results/cwfid.json) 和 [逐图结果](results/cwfid-per-image.csv)。
 
-数据、外部模型权重及运行缓存按各上游来源获取。代码许可证见 [LICENSE](LICENSE)。
+完整数据集按各上游来源获取。代码许可证见 [LICENSE](LICENSE)。

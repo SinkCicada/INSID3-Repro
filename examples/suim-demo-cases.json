@@ -1,0 +1,61 @@
+{
+  "selection": "official sampler, seed=0, first episode per class",
+  "cases": [
+    {
+      "category": "FV",
+      "class_id": 0,
+      "reference_image": "data/SUIM/images/f_r_263_.jpg",
+      "reference_mask": "data/SUIM/masks/FV/f_r_263_.bmp",
+      "target_image": "data/SUIM/images/f_r_7_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/FV/f_r_7_.bmp"
+    },
+    {
+      "category": "HD",
+      "class_id": 1,
+      "reference_image": "data/SUIM/images/f_r_459_.jpg",
+      "reference_mask": "data/SUIM/masks/HD/f_r_459_.bmp",
+      "target_image": "data/SUIM/images/f_r_1991_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/HD/f_r_1991_.bmp"
+    },
+    {
+      "category": "PF",
+      "class_id": 2,
+      "reference_image": "data/SUIM/images/f_r_192_.jpg",
+      "reference_mask": "data/SUIM/masks/PF/f_r_192_.bmp",
+      "target_image": "data/SUIM/images/n_l_40_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/PF/n_l_40_.bmp"
+    },
+    {
+      "category": "RI",
+      "class_id": 3,
+      "reference_image": "data/SUIM/images/n_l_87_.jpg",
+      "reference_mask": "data/SUIM/masks/RI/n_l_87_.bmp",
+      "target_image": "data/SUIM/images/f_r_1098_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/RI/f_r_1098_.bmp"
+    },
+    {
+      "category": "RO",
+      "class_id": 4,
+      "reference_image": "data/SUIM/images/d_r_513_.jpg",
+      "reference_mask": "data/SUIM/masks/RO/d_r_513_.bmp",
+      "target_image": "data/SUIM/images/d_r_428_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/RO/d_r_428_.bmp"
+    },
+    {
+      "category": "SR",
+      "class_id": 5,
+      "reference_image": "data/SUIM/images/d_r_163_.jpg",
+      "reference_mask": "data/SUIM/masks/SR/d_r_163_.bmp",
+      "target_image": "data/SUIM/images/n_l_87_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/SR/n_l_87_.bmp"
+    },
+    {
+      "category": "WR",
+      "class_id": 6,
+      "reference_image": "data/SUIM/images/w_r_129_.jpg",
+      "reference_mask": "data/SUIM/masks/WR/w_r_129_.bmp",
+      "target_image": "data/SUIM/images/w_r_294_.jpg",
+      "target_ground_truth_mask": "data/SUIM/masks/WR/w_r_294_.bmp"
+    }
+  ]
+}

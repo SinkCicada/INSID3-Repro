@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "fold": 0,
+      "original_class_id": 2294,
+      "reference_image": "data/PACO-Part/example_cases/fold0/reference.png",
+      "reference_mask": "data/PACO-Part/example_cases/fold0/reference_mask.png",
+      "target_image": "data/PACO-Part/example_cases/fold0/target.png",
+      "target_ground_truth_mask": "data/PACO-Part/example_cases/fold0/target_mask.png"
+    },
+    {
+      "fold": 1,
+      "original_class_id": 2133,
+      "reference_image": "data/PACO-Part/example_cases/fold1/reference.png",
+      "reference_mask": "data/PACO-Part/example_cases/fold1/reference_mask.png",
+      "target_image": "data/PACO-Part/example_cases/fold1/target.png",
+      "target_ground_truth_mask": "data/PACO-Part/example_cases/fold1/target_mask.png"
+    },
+    {
+      "fold": 2,
+      "original_class_id": 2338,
+      "reference_image": "data/PACO-Part/example_cases/fold2/reference.png",
+      "reference_mask": "data/PACO-Part/example_cases/fold2/reference_mask.png",
+      "target_image": "data/PACO-Part/example_cases/fold2/target.png",
+      "target_ground_truth_mask": "data/PACO-Part/example_cases/fold2/target_mask.png"
+    },
+    {
+      "fold": 3,
+      "original_class_id": 2329,
+      "reference_image": "data/PACO-Part/example_cases/fold3/reference.png",
+      "reference_mask": "data/PACO-Part/example_cases/fold3/reference_mask.png",
+      "target_image": "data/PACO-Part/example_cases/fold3/target.png",
+      "target_ground_truth_mask": "data/PACO-Part/example_cases/fold3/target_mask.png"
+    }
+  ]
+}

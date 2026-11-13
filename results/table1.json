@@ -1,0 +1,69 @@
+[
+  {
+    "dataset": "SUIM",
+    "shots": 1,
+    "miou_percent": 54.76647186279297,
+    "paper_miou_percent": 54.9
+  },
+  {
+    "dataset": "Chest X-Ray",
+    "shots": 1,
+    "miou_percent": 78.97950744628906,
+    "paper_miou_percent": 78.8
+  },
+  {
+    "dataset": "ISIC",
+    "shots": 1,
+    "miou_percent": 55.952537536621094,
+    "paper_miou_percent": 54.4
+  },
+  {
+    "dataset": "iSAID-5i",
+    "shots": 1,
+    "miou_percent": 51.52024841308594,
+    "paper_miou_percent": 52.1
+  },
+  {
+    "dataset": "COCO-20i",
+    "shots": 1,
+    "miou_percent": 56.983572006225586,
+    "paper_miou_percent": 57.6
+  },
+  {
+    "dataset": "PASCAL-Part",
+    "shots": 1,
+    "class_macro_miou_percent": 48.76162336777445,
+    "group_macro_miou_percent": 49.63073444366455,
+    "paper_miou_percent": 50.5,
+    "class_count": 56,
+    "episodes": 8459,
+    "miou_percent": 49.63073444366455
+  },
+  {
+    "dataset": "PACO-Part",
+    "shots": 1,
+    "class_macro_miou_percent": 38.39125554385048,
+    "group_macro_miou_percent": 38.463467597961426,
+    "paper_miou_percent": 38.7,
+    "class_count": 303,
+    "episodes": 10000,
+    "miou_percent": 38.463467597961426
+  },
+  {
+    "dataset": "LVIS-92i",
+    "shots": 1,
+    "miou_percent": 41.86592279231974,
+    "class_macro_miou_percent": 41.86592279231974,
+    "group_macro_miou_percent": 41.86592445373535,
+    "paper_miou_percent": 41.8,
+    "class_count": 920,
+    "episodes": 23000
+  },
+  {
+    "dataset": "PerMIS",
+    "shots": 1,
+    "miou_percent": 67.37200927734375,
+    "paper_miou_percent": 67.0,
+    "episodes": 432
+  }
+]

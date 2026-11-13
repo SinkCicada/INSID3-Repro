@@ -1,0 +1,10 @@
+{
+  "seed": 1,
+  "episodes": 600,
+  "miou_percent": 53.760101318359375,
+  "paper_miou_percent": 54.4,
+  "elapsed_seconds": 749.9247117796913,
+  "official_commit": "0c165a10cf52ab91f335883d06260de86854adbe",
+  "gpu_name": "NVIDIA A10",
+  "torch_version": "2.7.1+cu126"
+}

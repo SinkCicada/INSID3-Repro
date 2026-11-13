@@ -1,0 +1,781 @@
+{
+  "spair-backbones": {
+    "status": "completed",
+    "jobs": [
+      {
+        "size": "small",
+        "mode": "original",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 27.891156516112943,
+          "0.1": 44.09780312473865,
+          "0.15": 53.55115586321436,
+          "0.2": 60.005713621992115
+        }
+      },
+      {
+        "size": "small",
+        "mode": "debiased",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 28.14818053998544,
+          "0.1": 44.916503862257834,
+          "0.15": 54.9088871708508,
+          "0.2": 62.07815203593411
+        }
+      },
+      {
+        "size": "base",
+        "mode": "original",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 30.04727901688988,
+          "0.1": 46.175959294100686,
+          "0.15": 54.94749765019168,
+          "0.2": 60.692970853409136
+        }
+      },
+      {
+        "size": "base",
+        "mode": "debiased",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 33.666939107837905,
+          "0.1": 51.85207984732543,
+          "0.15": 61.722422587397986,
+          "0.2": 68.18935983863477
+        }
+      },
+      {
+        "size": "large",
+        "mode": "original",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 33.56109312794115,
+          "0.1": 51.54745195585323,
+          "0.15": 60.9678513114824,
+          "0.2": 67.2172582276057
+        }
+      },
+      {
+        "size": "large",
+        "mode": "debiased",
+        "status": "completed",
+        "test_pairs": 12234,
+        "pck_percent": {
+          "0.05": 34.566267892396766,
+          "0.1": 53.50531043692782,
+          "0.15": 63.45125272576523,
+          "0.2": 70.09067783046629
+        }
+      }
+    ],
+    "gains_percentage_points": {
+      "small": {
+        "0.05": 0.25702402387249634,
+        "0.1": 0.8187007375191868,
+        "0.15": 1.3577313076364348,
+        "0.2": 2.0724384139419953
+      },
+      "base": {
+        "0.05": 3.619660090948024,
+        "0.1": 5.676120553224742,
+        "0.15": 6.774924937206308,
+        "0.2": 7.496388985225636
+      },
+      "large": {
+        "0.05": 1.0051747644556173,
+        "0.1": 1.9578584810745951,
+        "0.15": 2.483401414282831,
+        "0.2": 2.8734196028605936
+      }
+    }
+  },
+  "table4": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "original",
+        "status": "completed",
+        "pairs": 12234,
+        "pck_percent": {
+          "0.05": 32.23607956666426,
+          "0.1": 49.68463455204902,
+          "0.15": 59.240833083123526,
+          "0.2": 65.86254386821125
+        }
+      },
+      {
+        "name": "debiased",
+        "status": "completed",
+        "pairs": 12234,
+        "pck_percent": {
+          "0.05": 33.003292709055515,
+          "0.1": 50.98127122662105,
+          "0.15": 61.064302737009925,
+          "0.2": 67.61820102334315
+        }
+      }
+    ],
+    "gain_percentage_points": {
+      "0.05": 0.767213142391256,
+      "0.1": 1.296636674572028,
+      "0.15": 1.8234696538863986,
+      "0.2": 1.7556571551318996
+    },
+    "paper_reference_percent": {
+      "original": [
+        34.4,
+        50.5,
+        66.8
+      ],
+      "debiased": [
+        34.7,
+        50.8,
+        67.1
+      ]
+    }
+  },
+  "table5": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "table5-svd_noise1-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise1-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise1-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise1-fold3",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise5-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise5-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise5-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise5-fold3",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise10-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise10-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise10-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "table5-svd_noise10-fold3",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment4-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment4-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment4-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment4-fold3",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment12-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment12-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment12-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "table5-augment12-fold3",
+        "status": "completed"
+      }
+    ],
+    "completed_groups": [
+      {
+        "variant": "svd_noise1",
+        "folds": 4,
+        "miou_percent": 56.52290058135986,
+        "paper_table5_reference_percent": 57.6,
+        "scope": "Reconstructed protocol"
+      },
+      {
+        "variant": "svd_noise5",
+        "folds": 4,
+        "miou_percent": 57.484275817871094,
+        "paper_table5_reference_percent": 57.7,
+        "scope": "Reconstructed protocol"
+      },
+      {
+        "variant": "svd_noise10",
+        "folds": 4,
+        "miou_percent": 57.230674743652344,
+        "paper_table5_reference_percent": 57.7,
+        "scope": "Reconstructed protocol"
+      },
+      {
+        "variant": "augment4",
+        "folds": 4,
+        "miou_percent": 56.20460319519043,
+        "paper_table5_reference_percent": 55.7,
+        "scope": "Reconstructed protocol"
+      },
+      {
+        "variant": "augment12",
+        "folds": 4,
+        "miou_percent": 55.07693099975586,
+        "paper_table5_reference_percent": 56.5,
+        "scope": "Reconstructed protocol"
+      }
+    ]
+  },
+  "table8-dinov2": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "0",
+        "status": "completed",
+        "fold": 0,
+        "episodes": 1000,
+        "miou_percent": 34.27897262573242
+      },
+      {
+        "name": "1",
+        "status": "completed",
+        "fold": 1,
+        "episodes": 1000,
+        "miou_percent": 36.673580169677734
+      },
+      {
+        "name": "2",
+        "status": "completed",
+        "fold": 2,
+        "episodes": 1000,
+        "miou_percent": 41.29371643066406
+      },
+      {
+        "name": "3",
+        "status": "completed",
+        "fold": 3,
+        "episodes": 1000,
+        "miou_percent": 36.24566650390625
+      }
+    ],
+    "miou_percent": 37.12298393249512,
+    "paper_reference_percent": 45.1
+  },
+  "table8-franca": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "0",
+        "status": "completed",
+        "fold": 0,
+        "episodes": 1000,
+        "miou_percent": 39.313690185546875
+      },
+      {
+        "name": "1",
+        "status": "completed",
+        "fold": 1,
+        "episodes": 1000,
+        "miou_percent": 45.72658157348633
+      },
+      {
+        "name": "2",
+        "status": "completed",
+        "fold": 2,
+        "episodes": 1000,
+        "miou_percent": 46.561851501464844
+      },
+      {
+        "name": "3",
+        "status": "completed",
+        "fold": 3,
+        "episodes": 1000,
+        "miou_percent": 40.1588249206543
+      }
+    ],
+    "miou_percent": 42.940237045288086,
+    "paper_reference_percent": 39.2
+  },
+  "table8-pe": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "0",
+        "status": "completed",
+        "fold": 0,
+        "episodes": 1000,
+        "miou_percent": 33.02989959716797
+      },
+      {
+        "name": "1",
+        "status": "completed",
+        "fold": 1,
+        "episodes": 1000,
+        "miou_percent": 38.00952911376953
+      },
+      {
+        "name": "2",
+        "status": "completed",
+        "fold": 2,
+        "episodes": 1000,
+        "miou_percent": 41.136009216308594
+      },
+      {
+        "name": "3",
+        "status": "completed",
+        "fold": 3,
+        "episodes": 1000,
+        "miou_percent": 35.60734558105469
+      }
+    ],
+    "miou_percent": 36.945695877075195,
+    "paper_reference_percent": 48.4
+  },
+  "table9-image-box": {
+    "status": "completed",
+    "folds": [
+      {
+        "fold": 0,
+        "episodes": 1000,
+        "miou_percent": 55.51172637939453
+      },
+      {
+        "fold": 1,
+        "episodes": 1000,
+        "miou_percent": 52.110809326171875
+      },
+      {
+        "fold": 2,
+        "episodes": 1000,
+        "miou_percent": 50.73839569091797
+      },
+      {
+        "fold": 3,
+        "episodes": 1000,
+        "miou_percent": 50.640804290771484
+      }
+    ],
+    "miou_percent": 52.250433921813965
+  },
+  "table9-video-mask": {
+    "status": "completed",
+    "folds": [
+      {
+        "fold": 0,
+        "episodes": 1000,
+        "miou_percent": 22.311372756958008
+      },
+      {
+        "fold": 1,
+        "episodes": 1000,
+        "miou_percent": 29.82288360595703
+      },
+      {
+        "fold": 2,
+        "episodes": 1000,
+        "miou_percent": 25.886329650878906
+      },
+      {
+        "fold": 3,
+        "episodes": 1000,
+        "miou_percent": 24.68372344970703
+      }
+    ],
+    "miou_percent": 25.676077365875244
+  },
+  "table10": {
+    "pairs": 4000,
+    "correct_empty": 1408,
+    "correct_empty_percent": 35.199999999999996,
+    "paper_table10_reference_percent": 85,
+    "comparison_scope": "Reconstructed negative pairs; paper pair IDs unverified",
+    "status": "completed"
+  },
+  "table11-gfsam": {
+    "method": "GF-SAM",
+    "cases": 12,
+    "median_ms": 1567.902997136116,
+    "paper_rtx4090_ms": 1030,
+    "scope": "Shared A10; COCO fold 0, seed 0; synchronized predictor time, excludes input setup."
+  },
+  "table11-matcher": {
+    "method": "Matcher",
+    "cases": 12,
+    "median_ms": 22307.96521808952,
+    "paper_rtx4090_ms": 9000,
+    "scope": "Shared A10; COCO fold 0, seed 0; synchronized predictor time, excludes input setup."
+  },
+  "table11-persam": {
+    "method": "PerSAM",
+    "cases": 12,
+    "median_ms": 1859.1943685896695,
+    "paper_rtx4090_ms": 504,
+    "scope": "Shared A10; COCO fold 0, seed 0; synchronized predictor time, excludes input setup."
+  },
+  "table11-seggpt": {
+    "method": "SegGPT",
+    "cases": 12,
+    "median_ms": 585.5207717977464,
+    "paper_rtx4090_ms": 110,
+    "scope": "Shared A10; COCO fold 0, seed 0; synchronized predictor time, excludes input setup."
+  },
+  "table12-13-shared": {
+    "rows": [
+      {
+        "size": 512,
+        "median_ms": 720.6474361009896,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1276.4755859375
+      },
+      {
+        "size": 720,
+        "median_ms": 652.5759883224964,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1345.0791015625
+      },
+      {
+        "size": 896,
+        "median_ms": 932.8515166416764,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1543.9326171875
+      },
+      {
+        "size": 1024,
+        "median_ms": 1124.8375503346324,
+        "modules_ms": [
+          {
+            "encoder_and_debias": 347.41408843547106,
+            "clustering": 230.64190335571766,
+            "crf_and_resize": 355.4330673068762,
+            "similarity_scoring_and_remaining": 96.9117833301425,
+            "profiled_total": 1030.4008424282074
+          },
+          {
+            "encoder_and_debias": 276.3890400528908,
+            "clustering": 249.74807631224394,
+            "crf_and_resize": 321.13891653716564,
+            "similarity_scoring_and_remaining": 43.06392092257738,
+            "profiled_total": 890.3399538248777
+          },
+          {
+            "encoder_and_debias": 268.47543474286795,
+            "clustering": 244.31785847991705,
+            "crf_and_resize": 590.708514675498,
+            "similarity_scoring_and_remaining": 392.14600902050734,
+            "profiled_total": 1495.6478169187903
+          },
+          {
+            "encoder_and_debias": 403.89653015881777,
+            "clustering": 253.75666562467813,
+            "crf_and_resize": 566.9329669326544,
+            "similarity_scoring_and_remaining": 220.68574745208025,
+            "profiled_total": 1445.2719101682305
+          },
+          {
+            "encoder_and_debias": 267.88162533193827,
+            "clustering": 247.29736056178808,
+            "crf_and_resize": 291.74553975462914,
+            "similarity_scoring_and_remaining": 57.52228386700153,
+            "profiled_total": 864.446809515357
+          },
+          {
+            "encoder_and_debias": 265.9251866862178,
+            "clustering": 217.6002962514758,
+            "crf_and_resize": 375.23225136101246,
+            "similarity_scoring_and_remaining": 63.24279401451349,
+            "profiled_total": 922.0005283132195
+          },
+          {
+            "encoder_and_debias": 263.4421093389392,
+            "clustering": 239.12486154586077,
+            "crf_and_resize": 517.2845274209976,
+            "similarity_scoring_and_remaining": 706.553821451962,
+            "profiled_total": 1726.4053197577596
+          },
+          {
+            "encoder_and_debias": 331.57193940132856,
+            "clustering": 215.62935411930084,
+            "crf_and_resize": 332.8312924131751,
+            "similarity_scoring_and_remaining": 327.88541726768017,
+            "profiled_total": 1207.9180032014847
+          },
+          {
+            "encoder_and_debias": 268.48567090928555,
+            "clustering": 216.21311083436012,
+            "crf_and_resize": 360.0342134013772,
+            "similarity_scoring_and_remaining": 24.684996344149113,
+            "profiled_total": 869.417991489172
+          },
+          {
+            "encoder_and_debias": 271.20581921190023,
+            "clustering": 215.80606419593096,
+            "crf_and_resize": 556.4711596816778,
+            "similarity_scoring_and_remaining": 291.74796864390373,
+            "profiled_total": 1335.2310117334127
+          },
+          {
+            "encoder_and_debias": 438.322932459414,
+            "clustering": 210.22031363099813,
+            "crf_and_resize": 502.97866854816675,
+            "similarity_scoring_and_remaining": 142.23586581647396,
+            "profiled_total": 1293.7577804550529
+          },
+          {
+            "encoder_and_debias": 394.03937943279743,
+            "clustering": 228.97456493228674,
+            "crf_and_resize": 357.716828584671,
+            "similarity_scoring_and_remaining": 78.83587200194597,
+            "profiled_total": 1059.5666449517012
+          }
+        ],
+        "peak_gpu_memory_mib": 1608.43994140625
+      },
+      {
+        "size": 1440,
+        "median_ms": 2408.4696481004357,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 2238.67236328125
+      },
+      {
+        "size": 1600,
+        "median_ms": 3504.05584089458,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 2706.193359375
+      },
+      {
+        "size": 1760,
+        "median_ms": 4160.191818140447,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 3317.83544921875
+      }
+    ],
+    "protocol": "A10 host measurement; fixed COCO pairs, synchronized wall time, 3 warmups per size; excludes model initialization, positional SVD, image loading and input preparation. Instrumented breakdown measured separately. Shared GPU timing, with other server workloads present.",
+    "status": "completed",
+    "table11_insid3_1024_median_ms": 1124.8375503346324
+  },
+  "table12-13": {
+    "rows": [
+      {
+        "size": 512,
+        "median_ms": 345.26441851630807,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1276.4755859375
+      },
+      {
+        "size": 720,
+        "median_ms": 457.7539502643049,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1345.0791015625
+      },
+      {
+        "size": 896,
+        "median_ms": 597.437861841172,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 1543.9326171875
+      },
+      {
+        "size": 1024,
+        "median_ms": 729.6554138883948,
+        "modules_ms": [
+          {
+            "encoder_and_debias": 209.94334109127522,
+            "clustering": 226.9917307421565,
+            "crf_and_resize": 238.56195341795683,
+            "similarity_scoring_and_remaining": 19.394234754145145,
+            "profiled_total": 694.8912600055337
+          },
+          {
+            "encoder_and_debias": 210.45350842177868,
+            "clustering": 241.15002434700727,
+            "crf_and_resize": 359.95809081941843,
+            "similarity_scoring_and_remaining": 9.056475013494492,
+            "profiled_total": 820.6180986016989
+          },
+          {
+            "encoder_and_debias": 210.30711941421032,
+            "clustering": 212.1842633932829,
+            "crf_and_resize": 370.3699316829443,
+            "similarity_scoring_and_remaining": 12.242336757481098,
+            "profiled_total": 805.1036512479186
+          },
+          {
+            "encoder_and_debias": 210.6364481151104,
+            "clustering": 235.10880209505558,
+            "crf_and_resize": 363.0199683830142,
+            "similarity_scoring_and_remaining": 14.274545945227146,
+            "profiled_total": 823.0397645384073
+          },
+          {
+            "encoder_and_debias": 210.98791994154453,
+            "clustering": 231.27055261284113,
+            "crf_and_resize": 307.4488677084446,
+            "similarity_scoring_and_remaining": 13.542156666517258,
+            "profiled_total": 763.2494969293475
+          },
+          {
+            "encoder_and_debias": 210.18381044268608,
+            "clustering": 216.72986820340157,
+            "crf_and_resize": 306.11192248761654,
+            "similarity_scoring_and_remaining": 13.717317022383213,
+            "profiled_total": 746.7429181560874
+          },
+          {
+            "encoder_and_debias": 210.41912771761417,
+            "clustering": 225.00172723084688,
+            "crf_and_resize": 278.7897838279605,
+            "similarity_scoring_and_remaining": 19.426588900387287,
+            "profiled_total": 733.6372276768088
+          },
+          {
+            "encoder_and_debias": 211.24461945146322,
+            "clustering": 216.82311967015266,
+            "crf_and_resize": 288.27361576259136,
+            "similarity_scoring_and_remaining": 24.08077847212553,
+            "profiled_total": 740.4221333563328
+          },
+          {
+            "encoder_and_debias": 210.80426685512066,
+            "clustering": 214.87043797969818,
+            "crf_and_resize": 340.08459094911814,
+            "similarity_scoring_and_remaining": 6.6966768354177475,
+            "profiled_total": 772.4559726193547
+          },
+          {
+            "encoder_and_debias": 210.84544528275728,
+            "clustering": 215.81457648426294,
+            "crf_and_resize": 313.94028291106224,
+            "similarity_scoring_and_remaining": 10.172264650464058,
+            "profiled_total": 750.7725693285465
+          },
+          {
+            "encoder_and_debias": 210.29640268534422,
+            "clustering": 212.0055826380849,
+            "crf_and_resize": 330.741124227643,
+            "similarity_scoring_and_remaining": 15.020159073174,
+            "profiled_total": 768.0632686242461
+          },
+          {
+            "encoder_and_debias": 210.19292157143354,
+            "clustering": 224.48637336492538,
+            "crf_and_resize": 300.19125435501337,
+            "similarity_scoring_and_remaining": 15.214570797979832,
+            "profiled_total": 750.0851200893521
+          }
+        ],
+        "peak_gpu_memory_mib": 1608.43994140625
+      },
+      {
+        "size": 1440,
+        "median_ms": 2083.224850706756,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 2238.67236328125
+      },
+      {
+        "size": 1600,
+        "median_ms": 2961.220976896584,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 2706.193359375
+      },
+      {
+        "size": 1760,
+        "median_ms": 4266.685327980667,
+        "modules_ms": [],
+        "peak_gpu_memory_mib": 3317.83544921875
+      }
+    ],
+    "protocol": "A10 host measurement; fixed COCO pairs, synchronized wall time, 3 warmups per size; excludes model initialization, positional SVD, image loading and input preparation. Instrumented breakdown measured separately.",
+    "status": "completed"
+  },
+  "threshold-control": {
+    "status": "completed",
+    "jobs": [
+      {
+        "name": "coco-threshold_055_normalized-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "coco-threshold_055_normalized-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "coco-threshold_055_normalized-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "coco-threshold_055_normalized-fold3",
+        "status": "completed"
+      },
+      {
+        "name": "pascal_part-threshold_055_normalized-fold0",
+        "status": "completed"
+      },
+      {
+        "name": "pascal_part-threshold_055_normalized-fold1",
+        "status": "completed"
+      },
+      {
+        "name": "pascal_part-threshold_055_normalized-fold2",
+        "status": "completed"
+      },
+      {
+        "name": "pascal_part-threshold_055_normalized-fold3",
+        "status": "completed"
+      }
+    ],
+    "completed_groups": [
+      {
+        "dataset": "coco",
+        "variant": "threshold_055_normalized",
+        "folds": 4,
+        "class_macro_miou_percent": 34.642895283379225,
+        "fold_macro_miou_percent": 34.64289712905884,
+        "paper_table3_reference_percent": 44.2
+      },
+      {
+        "dataset": "pascal_part",
+        "variant": "threshold_055_normalized",
+        "folds": 4,
+        "class_macro_miou_percent": 32.53457402621608,
+        "fold_macro_miou_percent": 26.503298044204712,
+        "paper_table3_reference_percent": 35.4
+      }
+    ]
+  }
+}

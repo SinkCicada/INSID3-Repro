@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "coco",
+    "shots": 1,
+    "class_macro_miou_percent": 52.73128742598011,
+    "fold_macro_miou_percent": 52.73129081726074,
+    "paper_5shot_miou_percent": null,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "cross_only"
+  },
+  {
+    "dataset": "coco",
+    "shots": 1,
+    "class_macro_miou_percent": 54.10712272284129,
+    "fold_macro_miou_percent": 54.10712432861328,
+    "paper_5shot_miou_percent": null,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "no_debias"
+  },
+  {
+    "dataset": "coco",
+    "shots": 1,
+    "class_macro_miou_percent": 49.82310954036592,
+    "fold_macro_miou_percent": 49.82310962677002,
+    "paper_5shot_miou_percent": null,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "seed_only_coarse"
+  },
+  {
+    "dataset": "coco",
+    "shots": 1,
+    "class_macro_miou_percent": 41.69705471365059,
+    "fold_macro_miou_percent": 41.697054862976074,
+    "paper_5shot_miou_percent": null,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "seed_only_fine"
+  },
+  {
+    "dataset": "coco",
+    "shots": 1,
+    "class_macro_miou_percent": 18.601060462539706,
+    "fold_macro_miou_percent": 18.601059913635254,
+    "paper_5shot_miou_percent": null,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "threshold_055"
+  },
+  {
+    "dataset": "coco",
+    "shots": 5,
+    "class_macro_miou_percent": 65.03092944041245,
+    "fold_macro_miou_percent": 65.030930519104,
+    "paper_5shot_miou_percent": 65.1,
+    "class_count": 80,
+    "episodes": 4000,
+    "variant": "full"
+  },
+  {
+    "dataset": "isaid",
+    "shots": 5,
+    "class_macro_miou_percent": 58.69440667886332,
+    "fold_macro_miou_percent": 58.69440460205078,
+    "paper_5shot_miou_percent": 56.9,
+    "class_count": 15,
+    "episodes": 10063,
+    "variant": "full"
+  },
+  {
+    "dataset": "isic",
+    "shots": 5,
+    "class_macro_miou_percent": 63.69152302705081,
+    "fold_macro_miou_percent": 63.6915283203125,
+    "paper_5shot_miou_percent": 63.9,
+    "class_count": 3,
+    "episodes": 600,
+    "variant": "full"
+  },
+  {
+    "dataset": "lung",
+    "shots": 5,
+    "class_macro_miou_percent": 79.38094056166146,
+    "fold_macro_miou_percent": 79.38094329833984,
+    "paper_5shot_miou_percent": 80.1,
+    "class_count": 1,
+    "episodes": 600,
+    "variant": "full"
+  },
+  {
+    "dataset": "lvis",
+    "shots": 5,
+    "class_macro_miou_percent": 47.31450368924487,
+    "fold_macro_miou_percent": 47.314504623413086,
+    "paper_5shot_miou_percent": 47.2,
+    "class_count": 680,
+    "episodes": 23000,
+    "variant": "full"
+  },
+  {
+    "dataset": "paco_part",
+    "shots": 5,
+    "class_macro_miou_percent": 46.734274306886896,
+    "fold_macro_miou_percent": 46.858885765075684,
+    "paper_5shot_miou_percent": 46.8,
+    "class_count": 198,
+    "episodes": 10000,
+    "variant": "full"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 1,
+    "class_macro_miou_percent": 49.287073173212036,
+    "fold_macro_miou_percent": 52.39595699310303,
+    "paper_5shot_miou_percent": null,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "cross_only"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 1,
+    "class_macro_miou_percent": 47.24537735969286,
+    "fold_macro_miou_percent": 48.47049427032471,
+    "paper_5shot_miou_percent": null,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "no_debias"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 1,
+    "class_macro_miou_percent": 33.76699791406468,
+    "fold_macro_miou_percent": 36.29797840118408,
+    "paper_5shot_miou_percent": null,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "seed_only_coarse"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 1,
+    "class_macro_miou_percent": 31.85854556250902,
+    "fold_macro_miou_percent": 30.286587238311768,
+    "paper_5shot_miou_percent": null,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "seed_only_fine"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 1,
+    "class_macro_miou_percent": 14.715873751278709,
+    "fold_macro_miou_percent": 9.869241744279861,
+    "paper_5shot_miou_percent": null,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "threshold_055"
+  },
+  {
+    "dataset": "pascal_part",
+    "shots": 5,
+    "class_macro_miou_percent": 55.95156219079943,
+    "fold_macro_miou_percent": 58.31013488769531,
+    "paper_5shot_miou_percent": 57.1,
+    "class_count": 56,
+    "episodes": 8459,
+    "variant": "full"
+  },
+  {
+    "dataset": "suim",
+    "shots": 5,
+    "class_macro_miou_percent": 63.403196798485716,
+    "fold_macro_miou_percent": 63.403202056884766,
+    "paper_5shot_miou_percent": 61.7,
+    "class_count": 7,
+    "episodes": 3859,
+    "variant": "full"
+  }
+]

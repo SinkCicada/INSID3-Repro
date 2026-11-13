@@ -1,0 +1,29 @@
+{
+  "selection": "seed=0, first official episode in each fold",
+  "cases": [
+    {
+      "fold": 0,
+      "class_id": 4,
+      "reference_image": "data/iSAID/val/images/P2168_824_1080_1648_1904.png",
+      "reference_mask": "data/iSAID/example_masks/fold0_reference.png",
+      "target_image": "data/iSAID/val/images/P2085_0_256_824_1080.png",
+      "target_ground_truth_mask": "data/iSAID/example_masks/fold0_target.png"
+    },
+    {
+      "fold": 1,
+      "class_id": 8,
+      "reference_image": "data/iSAID/val/images/P1380_1854_2110_2472_2728.png",
+      "reference_mask": "data/iSAID/example_masks/fold1_reference.png",
+      "target_image": "data/iSAID/val/images/P2689_1236_1492_1442_1698.png",
+      "target_ground_truth_mask": "data/iSAID/example_masks/fold1_target.png"
+    },
+    {
+      "fold": 2,
+      "class_id": 14,
+      "reference_image": "data/iSAID/val/images/P0683_2168_2424_618_874.png",
+      "reference_mask": "data/iSAID/example_masks/fold2_reference.png",
+      "target_image": "data/iSAID/val/images/P0977_1648_1904_1442_1698.png",
+      "target_ground_truth_mask": "data/iSAID/example_masks/fold2_target.png"
+    }
+  ]
+}

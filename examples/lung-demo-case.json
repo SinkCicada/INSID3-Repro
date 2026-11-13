@@ -1,0 +1,6 @@
+{
+  "reference_image": "data/LungSegmentation/CXR_png/CHNCXR_0267_0.png",
+  "reference_mask": "data/LungSegmentation/masks/CHNCXR_0267_0_mask.png",
+  "target_image": "data/LungSegmentation/CXR_png/CHNCXR_0525_1.png",
+  "target_ground_truth_mask": "data/LungSegmentation/masks/CHNCXR_0525_1_mask.png"
+}

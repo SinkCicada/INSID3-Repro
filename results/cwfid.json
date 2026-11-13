@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "dataset": "CWFID",
+  "task": "vegetation foreground + cover estimation",
+  "test_images": 21,
+  "reference_id": 2,
+  "shots": 1,
+  "finetuning": false,
+  "foreground_iou_percent": 78.81563250719785,
+  "mean_per_image_iou_percent": 79.20912994351409,
+  "pooled_dice_percent": 88.15295553538954,
+  "mean_per_image_dice_percent": 88.31158478023333,
+  "cover_mae_percentage_points": 0.5362247332284137,
+  "total_seconds": 23.963626661337912,
+  "peak_gpu_memory_mib": 1594.80322265625,
+  "paper_comparison": null,
+  "scope": "independent application protocol; not an INSID3 paper benchmark"
+}

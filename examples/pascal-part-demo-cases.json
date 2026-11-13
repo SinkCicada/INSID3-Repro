@@ -1,0 +1,41 @@
+{
+  "selection": "seed=0, first official sample per group",
+  "cases": [
+    {
+      "fold": 0,
+      "semantic_group": "animals",
+      "part_name": "bird+FACE",
+      "reference_image": "data/Pascal-Part/example_cases/fold0/reference.png",
+      "reference_mask": "data/Pascal-Part/example_cases/fold0/reference_mask.png",
+      "target_image": "data/Pascal-Part/example_cases/fold0/target.png",
+      "target_ground_truth_mask": "data/Pascal-Part/example_cases/fold0/target_mask.png"
+    },
+    {
+      "fold": 1,
+      "semantic_group": "indoor",
+      "part_name": "bottle+BODY",
+      "reference_image": "data/Pascal-Part/example_cases/fold1/reference.png",
+      "reference_mask": "data/Pascal-Part/example_cases/fold1/reference_mask.png",
+      "target_image": "data/Pascal-Part/example_cases/fold1/target.png",
+      "target_ground_truth_mask": "data/Pascal-Part/example_cases/fold1/target_mask.png"
+    },
+    {
+      "fold": 2,
+      "semantic_group": "person",
+      "part_name": "person+ARMHAND",
+      "reference_image": "data/Pascal-Part/example_cases/fold2/reference.png",
+      "reference_mask": "data/Pascal-Part/example_cases/fold2/reference_mask.png",
+      "target_image": "data/Pascal-Part/example_cases/fold2/target.png",
+      "target_ground_truth_mask": "data/Pascal-Part/example_cases/fold2/target_mask.png"
+    },
+    {
+      "fold": 3,
+      "semantic_group": "vehicles",
+      "part_name": "aeroplane+BODY",
+      "reference_image": "data/Pascal-Part/example_cases/fold3/reference.png",
+      "reference_mask": "data/Pascal-Part/example_cases/fold3/reference_mask.png",
+      "target_image": "data/Pascal-Part/example_cases/fold3/target.png",
+      "target_ground_truth_mask": "data/Pascal-Part/example_cases/fold3/target_mask.png"
+    }
+  ]
+}

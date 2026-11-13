@@ -1,0 +1,226 @@
+[
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_100",
+    "folds": 4,
+    "class_macro_miou_percent": 56.56136670452081,
+    "fold_macro_miou_percent": 56.56136894226074
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_100",
+    "folds": 4,
+    "class_macro_miou_percent": 48.91758481763547,
+    "fold_macro_miou_percent": 50.0053653717041
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_300",
+    "folds": 4,
+    "class_macro_miou_percent": 56.817445370161856,
+    "fold_macro_miou_percent": 56.8174467086792
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_300",
+    "folds": 4,
+    "class_macro_miou_percent": 48.868609792006204,
+    "fold_macro_miou_percent": 49.824636459350586
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_700",
+    "folds": 4,
+    "class_macro_miou_percent": 56.53021654991787,
+    "fold_macro_miou_percent": 56.53021812438965
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_700",
+    "folds": 4,
+    "class_macro_miou_percent": 47.82879827457118,
+    "fold_macro_miou_percent": 47.820207595825195
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_900",
+    "folds": 4,
+    "class_macro_miou_percent": 54.47245362254066,
+    "fold_macro_miou_percent": 54.47245502471924
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_900",
+    "folds": 4,
+    "class_macro_miou_percent": 44.49547641365425,
+    "fold_macro_miou_percent": 43.67317581176758
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_200",
+    "folds": 4,
+    "class_macro_miou_percent": 56.653573456015764,
+    "fold_macro_miou_percent": 56.6535758972168
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_200",
+    "folds": 4,
+    "class_macro_miou_percent": 48.78726534319386,
+    "fold_macro_miou_percent": 49.89005184173584
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_400",
+    "folds": 4,
+    "class_macro_miou_percent": 57.020350248253294,
+    "fold_macro_miou_percent": 57.02035045623779
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_400",
+    "folds": 4,
+    "class_macro_miou_percent": 48.917871062850935,
+    "fold_macro_miou_percent": 49.79194259643555
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_600",
+    "folds": 4,
+    "class_macro_miou_percent": 56.7028369731093,
+    "fold_macro_miou_percent": 56.70283889770508
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_600",
+    "folds": 4,
+    "class_macro_miou_percent": 48.66046620510167,
+    "fold_macro_miou_percent": 49.41642475128174
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_rank_800",
+    "folds": 4,
+    "class_macro_miou_percent": 55.38215438297443,
+    "fold_macro_miou_percent": 55.382155418395996
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_rank_800",
+    "folds": 4,
+    "class_macro_miou_percent": 47.083472330608636,
+    "fold_macro_miou_percent": 46.69334888458252
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.40",
+    "folds": 4,
+    "class_macro_miou_percent": 46.05167132235205,
+    "fold_macro_miou_percent": 46.051673889160156
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.40",
+    "folds": 4,
+    "class_macro_miou_percent": 30.787888120462632,
+    "fold_macro_miou_percent": 37.30634117126465
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.45",
+    "folds": 4,
+    "class_macro_miou_percent": 51.62545329652394,
+    "fold_macro_miou_percent": 51.62545680999756
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.45",
+    "folds": 4,
+    "class_macro_miou_percent": 35.168546966456766,
+    "fold_macro_miou_percent": 41.13283061981201
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.55",
+    "folds": 4,
+    "class_macro_miou_percent": 56.562997014445756,
+    "fold_macro_miou_percent": 56.56299877166748
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.55",
+    "folds": 4,
+    "class_macro_miou_percent": 45.13480100973433,
+    "fold_macro_miou_percent": 47.62097454071045
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.65",
+    "folds": 4,
+    "class_macro_miou_percent": 56.68686014973601,
+    "fold_macro_miou_percent": 56.68686103820801
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.65",
+    "folds": 4,
+    "class_macro_miou_percent": 51.05175569204078,
+    "fold_macro_miou_percent": 50.81954765319824
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.70",
+    "folds": 4,
+    "class_macro_miou_percent": 55.88135633428177,
+    "fold_macro_miou_percent": 55.88135623931885
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.70",
+    "folds": 4,
+    "class_macro_miou_percent": 51.821879617622876,
+    "fold_macro_miou_percent": 50.90072727203369
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.75",
+    "folds": 4,
+    "class_macro_miou_percent": 55.132789628916775,
+    "fold_macro_miou_percent": 55.13278865814209
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.75",
+    "folds": 4,
+    "class_macro_miou_percent": 52.364546281938914,
+    "fold_macro_miou_percent": 50.91884231567383
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.80",
+    "folds": 4,
+    "class_macro_miou_percent": 54.43108375051575,
+    "fold_macro_miou_percent": 54.431084632873535
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.80",
+    "folds": 4,
+    "class_macro_miou_percent": 52.009876952327765,
+    "fold_macro_miou_percent": 50.41110324859619
+  },
+  {
+    "dataset": "coco",
+    "variant": "figure7_tau_0.90",
+    "folds": 4,
+    "class_macro_miou_percent": 53.3620919288121,
+    "fold_macro_miou_percent": 53.36209201812744
+  },
+  {
+    "dataset": "pascal_part",
+    "variant": "figure7_tau_0.90",
+    "folds": 4,
+    "class_macro_miou_percent": 51.284742227510215,
+    "fold_macro_miou_percent": 49.31559753417969
+  }
+]

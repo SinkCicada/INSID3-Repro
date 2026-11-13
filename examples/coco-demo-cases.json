@@ -1,0 +1,37 @@
+{
+  "selection": "seed=0, first official sample per fold",
+  "cases": [
+    {
+      "fold": 0,
+      "class_id": 72,
+      "reference_image": "data/COCO2014/val2014/COCO_val2014_000000486122.jpg",
+      "reference_mask": "data/COCO2014/example_masks/fold0_reference.png",
+      "target_image": "data/COCO2014/val2014/COCO_val2014_000000507081.jpg",
+      "target_ground_truth_mask": "data/COCO2014/example_masks/fold0_target.png"
+    },
+    {
+      "fold": 1,
+      "class_id": 73,
+      "reference_image": "data/COCO2014/val2014/COCO_val2014_000000476810.jpg",
+      "reference_mask": "data/COCO2014/example_masks/fold1_reference.png",
+      "target_image": "data/COCO2014/val2014/COCO_val2014_000000154095.jpg",
+      "target_ground_truth_mask": "data/COCO2014/example_masks/fold1_target.png"
+    },
+    {
+      "fold": 2,
+      "class_id": 74,
+      "reference_image": "data/COCO2014/val2014/COCO_val2014_000000378299.jpg",
+      "reference_mask": "data/COCO2014/example_masks/fold2_reference.png",
+      "target_image": "data/COCO2014/val2014/COCO_val2014_000000167668.jpg",
+      "target_ground_truth_mask": "data/COCO2014/example_masks/fold2_target.png"
+    },
+    {
+      "fold": 3,
+      "class_id": 75,
+      "reference_image": "data/COCO2014/val2014/COCO_val2014_000000262631.jpg",
+      "reference_mask": "data/COCO2014/example_masks/fold3_reference.png",
+      "target_image": "data/COCO2014/val2014/COCO_val2014_000000295564.jpg",
+      "target_ground_truth_mask": "data/COCO2014/example_masks/fold3_target.png"
+    }
+  ]
+}

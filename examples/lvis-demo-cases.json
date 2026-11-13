@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "fold": 0,
+      "original_class_id": 1,
+      "reference_image": "data/LVIS/example_cases/fold0/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold0/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold0/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold0/target_mask.png"
+    },
+    {
+      "fold": 1,
+      "original_class_id": 2,
+      "reference_image": "data/LVIS/example_cases/fold1/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold1/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold1/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold1/target_mask.png"
+    },
+    {
+      "fold": 2,
+      "original_class_id": 3,
+      "reference_image": "data/LVIS/example_cases/fold2/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold2/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold2/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold2/target_mask.png"
+    },
+    {
+      "fold": 3,
+      "original_class_id": 4,
+      "reference_image": "data/LVIS/example_cases/fold3/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold3/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold3/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold3/target_mask.png"
+    },
+    {
+      "fold": 4,
+      "original_class_id": 5,
+      "reference_image": "data/LVIS/example_cases/fold4/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold4/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold4/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold4/target_mask.png"
+    },
+    {
+      "fold": 5,
+      "original_class_id": 7,
+      "reference_image": "data/LVIS/example_cases/fold5/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold5/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold5/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold5/target_mask.png"
+    },
+    {
+      "fold": 6,
+      "original_class_id": 8,
+      "reference_image": "data/LVIS/example_cases/fold6/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold6/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold6/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold6/target_mask.png"
+    },
+    {
+      "fold": 7,
+      "original_class_id": 9,
+      "reference_image": "data/LVIS/example_cases/fold7/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold7/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold7/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold7/target_mask.png"
+    },
+    {
+      "fold": 8,
+      "original_class_id": 10,
+      "reference_image": "data/LVIS/example_cases/fold8/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold8/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold8/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold8/target_mask.png"
+    },
+    {
+      "fold": 9,
+      "original_class_id": 11,
+      "reference_image": "data/LVIS/example_cases/fold9/reference.png",
+      "reference_mask": "data/LVIS/example_cases/fold9/reference_mask.png",
+      "target_image": "data/LVIS/example_cases/fold9/target.png",
+      "target_ground_truth_mask": "data/LVIS/example_cases/fold9/target_mask.png"
+    }
+  ]
+}
